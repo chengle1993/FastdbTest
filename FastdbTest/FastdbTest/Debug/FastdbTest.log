@@ -1,0 +1,35 @@
+﻿  FastdbTest.cpp
+  class.cpp
+  compiler.cpp
+  container.cpp
+  cursor.cpp
+  database.cpp
+e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7508): warning C4244: “=”: 从“time_t”转换到“unsigned int”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“char_t *”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%ls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%lls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%Ls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%ws”
+e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): warning C4477: “fprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“char_t *”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%ls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%lls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%Ls”
+  e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\database.cpp(7678): note: 请考虑在格式字符串中使用“%ws”
+  file.cpp
+  hashtab.cpp
+  localcli.cpp
+  query.cpp
+  repsock.cpp
+  rtree.cpp
+e:\test\fastdbtest\fastdbtest\fastdbtest\fastdb\rtree.cpp(262): warning C4005: “INFINITY”: 宏重定义
+  d:\windows kits\10\include\10.0.19041.0\ucrt\corecrt_math.h(88): note: 参见“INFINITY”的前一个定义
+  server.cpp
+  stdtp.cpp
+  symtab.cpp
+  sync.cpp
+  ttree.cpp
+  w32sock.cpp
+  wwwapi.cpp
+  xml.cpp
+  正在生成代码...
+  FastdbTest.vcxproj -> E:\test\FastdbTest\FastdbTest\Debug\FastdbTest.exe

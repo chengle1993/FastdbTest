@@ -1,0 +1,28 @@
+2020-11-06 14:56:22,352 [0x00002fe8] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 14:56:22,356 [0x00002fe8] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 14:57:19,153 [0x00001a7c] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 14:57:19,154 [0x00001a7c] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:28,980 [0x00002220] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:02:28,985 [0x00002220] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:28,988 [0x00002220] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:02:34,651 [0x00001978] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:02:34,652 [0x00001978] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:34,654 [0x00001978] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:02:35,579 [0x00003ec0] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:02:35,580 [0x00003ec0] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:35,581 [0x00003ec0] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:02:36,416 [0x00002ad8] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:02:36,416 [0x00002ad8] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:36,418 [0x00002ad8] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:02:37,325 [0x000022c0] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:02:37,327 [0x000022c0] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:02:37,332 [0x000022c0] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:03:27,975 [0x00003698] DEBUG st\readconfigfile\main.cpp(15) - now, can use logger.
+2020-11-06 15:03:27,976 [0x00003698] INFO  \readconfigfile\config.cpp(84) - Cfg.ini read
+2020-11-06 15:03:27,978 [0x00003698] INFO  st\readconfigfile\main.cpp(24) - 06:00:00
+2020-11-06 15:11:41,115 [0x00000db4] DEBUG est\idbfastdbtest\main.cpp(15) - now, can use logger.
+2020-11-06 15:11:41,120 [0x00000db4] INFO  t\idbfastdbtest\config.cpp(84) - Cfg.ini read
+2020-11-06 15:11:41,121 [0x00000db4] INFO  est\idbfastdbtest\main.cpp(24) - 06:00:00
+2020-11-06 16:29:14,816 [0x000026b8] DEBUG t\mysqlconnection\main.cpp(15) - now, can use logger.
+2020-11-06 16:29:14,817 [0x000026b8] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 16:29:14,817 [0x000026b8] INFO  t\mysqlconnection\main.cpp(24) - 06:00:00

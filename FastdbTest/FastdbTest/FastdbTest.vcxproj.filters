@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="fastdb">
+      <UniqueIdentifier>{e71c6810-26fe-47b8-bd01-8f0ad1b10b6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FastdbTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\class.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\compiler.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\container.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\cursor.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\database.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\file.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\hashtab.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\localcli.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\query.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\repsock.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\rtree.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\server.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\stdtp.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\symtab.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\sync.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\ttree.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\w32sock.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\wwwapi.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+    <ClCompile Include="fastdb\xml.cpp">
+      <Filter>fastdb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fastdb\array.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\class.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\cli.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\cliproto.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\compiler.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\config.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\container.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\cursor.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\database.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\date.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\datetime.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\exception.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\fastdb.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\fastdbShim.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\file.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\harray.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\hashtab.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\iqsort.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\localcli.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\query.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\rectangle.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\reference.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\repsock.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\rtree.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\server.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\set.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\sockio.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\stdtp.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\subsql.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\symtab.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\sync.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\sync_unix.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\sync_w32.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\timeseries.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\ttree.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\unisock.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\w32sock.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\wince.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+    <ClInclude Include="fastdb\wwwapi.h">
+      <Filter>fastdb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fastdb\compiler.d">
+      <Filter>fastdb</Filter>
+    </None>
+  </ItemGroup>
+</Project>

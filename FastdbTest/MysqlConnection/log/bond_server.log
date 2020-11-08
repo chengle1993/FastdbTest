@@ -1,0 +1,147 @@
+2020-11-06 16:29:50,909 [0x00003630] DEBUG t\mysqlconnection\main.cpp(15) - now, can use logger.
+2020-11-06 16:29:50,909 [0x00003630] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 16:29:50,909 [0x00003630] INFO  t\mysqlconnection\main.cpp(24) - 06:00:00
+2020-11-06 16:42:17,897 [0x00001ad0] DEBUG t\mysqlconnection\main.cpp(17) - now, can use logger.
+2020-11-06 16:42:17,899 [0x00001ad0] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 16:42:17,899 [0x00001ad0] INFO  t\mysqlconnection\main.cpp(26) - 06:00:00
+2020-11-06 16:42:18,133 [0x00001ad0] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 16:42:18,139 [0x00001ad0] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 16:42:18,152 [0x00001ad0] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 16:42:18,155 [0x00001ad0] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 16:42:18,159 [0x00001ad0] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 16:42:18,167 [0x00001ad0] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 16:42:18,168 [0x00001ad0] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 16:42:18,170 [0x00001ad0] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 16:42:18,170 [0x00001ad0] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 16:42:18,171 [0x00001ad0] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 16:42:18,173 [0x00001ad0] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 16:42:18,174 [0x00001ad0] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 16:42:18,185 [0x00003494] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 16:48:14,951 [0x00002f94] DEBUG t\mysqlconnection\main.cpp(17) - now, can use logger.
+2020-11-06 16:48:14,951 [0x00002f94] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 16:48:14,951 [0x00002f94] INFO  t\mysqlconnection\main.cpp(26) - 06:00:00
+2020-11-06 16:48:15,031 [0x00002f94] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 16:48:15,045 [0x00002f94] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 16:48:15,046 [0x00002f94] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 16:48:15,049 [0x00002f94] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 16:48:15,051 [0x00002f94] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 16:48:15,051 [0x00002f94] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 16:48:15,051 [0x00002f94] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 16:48:15,052 [0x00002f94] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 16:48:15,052 [0x00002f94] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 16:48:15,053 [0x00002f94] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 16:48:15,053 [0x00002f94] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 16:48:15,053 [0x00002f94] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 16:48:15,054 [0x00002c84] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 16:49:56,798 [0x00000bec] DEBUG t\mysqlconnection\main.cpp(17) - now, can use logger.
+2020-11-06 16:49:56,798 [0x00000bec] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 16:49:56,799 [0x00000bec] INFO  t\mysqlconnection\main.cpp(26) - 06:00:00
+2020-11-06 16:49:56,871 [0x00000bec] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 16:49:56,874 [0x00000bec] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 16:49:56,876 [0x00000bec] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 16:49:56,878 [0x00000bec] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 16:49:56,880 [0x00000bec] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 16:49:56,880 [0x00000bec] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 16:49:56,880 [0x00000bec] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 16:49:56,880 [0x00000bec] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 16:49:56,881 [0x00000bec] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 16:49:56,881 [0x00000bec] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 16:49:56,882 [0x00000bec] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 16:49:56,882 [0x00000bec] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 16:49:56,885 [0x00002ca0] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:04:56,533 [0x0000384c] DEBUG t\mysqlconnection\main.cpp(17) - now, can use logger.
+2020-11-06 17:04:56,533 [0x0000384c] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:04:56,533 [0x0000384c] INFO  t\mysqlconnection\main.cpp(26) - 06:00:00
+2020-11-06 17:04:56,600 [0x0000384c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:04:56,615 [0x0000384c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:04:56,617 [0x0000384c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:04:56,619 [0x0000384c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:04:56,621 [0x0000384c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:04:56,621 [0x0000384c] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:04:56,621 [0x0000384c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:04:56,622 [0x0000384c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:04:56,622 [0x0000384c] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:04:56,623 [0x0000384c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:04:56,623 [0x0000384c] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:04:56,623 [0x0000384c] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:04:56,625 [0x00000210] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:15:55,977 [0x00003c1c] DEBUG t\mysqlconnection\main.cpp(18) - now, can use logger.
+2020-11-06 17:15:55,977 [0x00003c1c] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:15:55,978 [0x00003c1c] INFO  t\mysqlconnection\main.cpp(27) - 06:00:00
+2020-11-06 17:15:56,044 [0x00003c1c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:15:56,046 [0x00003c1c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:15:56,048 [0x00003c1c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:15:56,050 [0x00003c1c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:15:56,052 [0x00003c1c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:15:56,052 [0x00003c1c] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:15:56,052 [0x00003c1c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:15:56,053 [0x00003c1c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:15:56,054 [0x00003c1c] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:15:56,054 [0x00003c1c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:15:56,054 [0x00003c1c] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:15:56,054 [0x00003c1c] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:15:56,056 [0x00002128] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:16:39,383 [0x00003290] DEBUG t\mysqlconnection\main.cpp(18) - now, can use logger.
+2020-11-06 17:16:39,383 [0x00003290] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:16:39,383 [0x00003290] INFO  t\mysqlconnection\main.cpp(27) - 06:00:00
+2020-11-06 17:16:39,456 [0x00003290] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:16:39,460 [0x00003290] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:16:39,463 [0x00003290] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:16:39,465 [0x00003290] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:16:39,467 [0x00003290] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:16:39,467 [0x00003290] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:16:39,468 [0x00003290] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:16:39,469 [0x00003290] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:16:39,469 [0x00003290] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:16:39,469 [0x00003290] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:16:39,470 [0x00003290] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:16:39,470 [0x00003290] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:16:39,472 [0x00002564] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:17:33,983 [0x000034a8] DEBUG t\mysqlconnection\main.cpp(18) - now, can use logger.
+2020-11-06 17:17:33,983 [0x000034a8] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:17:33,983 [0x000034a8] INFO  t\mysqlconnection\main.cpp(27) - 06:00:00
+2020-11-06 17:17:34,046 [0x000034a8] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:17:34,048 [0x000034a8] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:17:34,050 [0x000034a8] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:17:34,052 [0x000034a8] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:17:34,054 [0x000034a8] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:17:34,054 [0x000034a8] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:17:34,054 [0x000034a8] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:17:34,054 [0x000034a8] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:17:34,054 [0x000034a8] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:17:34,055 [0x000034a8] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:17:34,057 [0x000034a8] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:17:34,058 [0x000034a8] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:17:34,061 [0x00004228] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:18:06,190 [0x00000d90] DEBUG t\mysqlconnection\main.cpp(18) - now, can use logger.
+2020-11-06 17:18:06,190 [0x00000d90] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:18:06,190 [0x00000d90] INFO  t\mysqlconnection\main.cpp(27) - 06:00:00
+2020-11-06 17:18:06,263 [0x00000d90] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:18:06,265 [0x00000d90] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:18:06,267 [0x00000d90] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:18:06,269 [0x00000d90] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:18:06,271 [0x00000d90] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:18:06,272 [0x00000d90] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:18:06,273 [0x00000d90] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:18:06,274 [0x00000d90] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:18:06,274 [0x00000d90] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:18:06,274 [0x00000d90] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:18:06,274 [0x00000d90] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:18:06,275 [0x00000d90] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:18:06,276 [0x0000344c] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
+2020-11-06 17:21:26,731 [0x00003a6c] DEBUG t\mysqlconnection\main.cpp(18) - now, can use logger.
+2020-11-06 17:21:26,732 [0x00003a6c] INFO  connection\util\config.cpp(84) - Cfg.ini read
+2020-11-06 17:21:26,732 [0x00003a6c] INFO  t\mysqlconnection\main.cpp(27) - 06:00:00
+2020-11-06 17:21:26,790 [0x00003a6c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 1, host: tcp://172.16.75.172:3306
+2020-11-06 17:21:26,792 [0x00003a6c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 2, host: tcp://172.16.75.172:3306
+2020-11-06 17:21:26,795 [0x00003a6c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 3, host: tcp://172.16.75.172:3306
+2020-11-06 17:21:26,797 [0x00003a6c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 4, host: tcp://172.16.75.172:3306
+2020-11-06 17:21:26,799 [0x00003a6c] DEBUG on\db\connection_pool.cpp(116) - ConnPool::createConnection count: 5, host: tcp://172.16.75.172:3306
+2020-11-06 17:21:26,799 [0x00003a6c] DEBUG onnection_pool_manager.cpp(23) - ConnectionPoolManager host:tcp://172.16.75.172:3306, user:artogrid, passwd:artogrid, pooSize:5, batchCommit:5000, accountSchema:idb_account, bondSchema:idb_bond
+2020-11-06 17:21:26,799 [0x00003a6c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.User default value: artogrid returned
+2020-11-06 17:21:26,799 [0x00003a6c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.Password default value: artogrid returned
+2020-11-06 17:21:26,799 [0x00003a6c] WARN  onnection\util\config.cpp(137) - Config::getIntValue BaseConnection.PoolSize default value: 2 returned
+2020-11-06 17:21:26,800 [0x00003a6c] WARN  onnection\util\config.cpp(126) - Config::getValue BaseConnection.BaseDB default value: base_data returned
+2020-11-06 17:21:26,801 [0x00003a6c] WARN  onnection\util\config.cpp(137) - Config::getIntValue Connection.WorkThreads default value: 1 returned
+2020-11-06 17:21:26,801 [0x00003a6c] INFO  nection\db\dbconnector.cpp(28) - init db work thread: 1
+2020-11-06 17:21:26,805 [0x00002ff4] DEBUG ection\db\dbconnector.cpp(258) - start thread to update db
