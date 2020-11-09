@@ -177,10 +177,10 @@ bool insertCacheG(T *dst, sql::ResultSet *resSet) {
 		std::string columnName = fd->name;
 
 		long long dstOffs = (long long)dst + fd->appOffs;
-		LOGGER_DEBUG("columnName:" << fd->name);
-		LOGGER_DEBUG("dstOffs:" << dstOffs);
-		LOGGER_DEBUG("appOffs:" << fd->appOffs);
-		LOGGER_DEBUG("appType:" << fd->appType);
+		//LOGGER_DEBUG("columnName:" << fd->name);
+		//LOGGER_DEBUG("dstOffs:" << dstOffs);
+		//LOGGER_DEBUG("appOffs:" << fd->appOffs);
+		//LOGGER_DEBUG("appType:" << fd->appType);
 		switch (fd->appType) {
 		case dbField::tpBool:
 			*(bool*)dstOffs = resSet->getBoolean(columnName);
