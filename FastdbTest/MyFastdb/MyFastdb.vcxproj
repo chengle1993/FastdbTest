@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyFastdb</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Path.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Path.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Path.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Path.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>log4cxx.lib;mysqlcppconn.lib;sdbus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cache\cache_attachguard.cpp" />
+    <ClCompile Include="cache\cache_center.cpp" />
+    <ClCompile Include="cache\cache_monitor.cpp" />
+    <ClCompile Include="cache\controller\account_cachecontroller.cpp" />
+    <ClCompile Include="cache\model\account_cache.cpp" />
+    <ClCompile Include="db\connection_pool.cpp" />
+    <ClCompile Include="db\connection_pool_manager.cpp" />
+    <ClCompile Include="db\dbconnector.cpp" />
+    <ClCompile Include="fastdb\class.cpp" />
+    <ClCompile Include="fastdb\compiler.cpp" />
+    <ClCompile Include="fastdb\container.cpp" />
+    <ClCompile Include="fastdb\cursor.cpp" />
+    <ClCompile Include="fastdb\database.cpp" />
+    <ClCompile Include="fastdb\file.cpp" />
+    <ClCompile Include="fastdb\hashtab.cpp" />
+    <ClCompile Include="fastdb\localcli.cpp" />
+    <ClCompile Include="fastdb\query.cpp" />
+    <ClCompile Include="fastdb\repsock.cpp" />
+    <ClCompile Include="fastdb\rtree.cpp" />
+    <ClCompile Include="fastdb\server.cpp" />
+    <ClCompile Include="fastdb\stdtp.cpp" />
+    <ClCompile Include="fastdb\symtab.cpp" />
+    <ClCompile Include="fastdb\sync.cpp" />
+    <ClCompile Include="fastdb\ttree.cpp" />
+    <ClCompile Include="fastdb\w32sock.cpp" />
+    <ClCompile Include="fastdb\wwwapi.cpp" />
+    <ClCompile Include="fastdb\xml.cpp" />
+    <ClCompile Include="include\cache_def.cpp" />
+    <ClCompile Include="include\common.cpp" />
+    <ClCompile Include="include\config.cpp" />
+    <ClCompile Include="include\constants.cpp" />
+    <ClCompile Include="include\idbutil.cpp" />
+    <ClCompile Include="include\idutil.cpp" />
+    <ClCompile Include="include\logger.cpp" />
+    <ClCompile Include="include\pinyin.cpp" />
+    <ClCompile Include="include\pugixml.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cache\cache_attachguard.h" />
+    <ClInclude Include="cache\cache_center.h" />
+    <ClInclude Include="cache\cache_controller.h" />
+    <ClInclude Include="cache\cache_controller_declare.h" />
+    <ClInclude Include="cache\cache_monitor.h" />
+    <ClInclude Include="cache\controller\account_cachecontroller.h" />
+    <ClInclude Include="cache\model\account_cache.h" />
+    <ClInclude Include="cache\simple_cache_controller.h" />
+    <ClInclude Include="db\connection_pool.h" />
+    <ClInclude Include="db\connection_pool_manager.h" />
+    <ClInclude Include="db\dbconnector.h" />
+    <ClInclude Include="fastdb\array.h" />
+    <ClInclude Include="fastdb\class.h" />
+    <ClInclude Include="fastdb\cli.h" />
+    <ClInclude Include="fastdb\cliproto.h" />
+    <ClInclude Include="fastdb\compiler.h" />
+    <ClInclude Include="fastdb\config.h" />
+    <ClInclude Include="fastdb\container.h" />
+    <ClInclude Include="fastdb\cursor.h" />
+    <ClInclude Include="fastdb\database.h" />
+    <ClInclude Include="fastdb\date.h" />
+    <ClInclude Include="fastdb\datetime.h" />
+    <ClInclude Include="fastdb\exception.h" />
+    <ClInclude Include="fastdb\fastdb.h" />
+    <ClInclude Include="fastdb\fastdbShim.h" />
+    <ClInclude Include="fastdb\file.h" />
+    <ClInclude Include="fastdb\harray.h" />
+    <ClInclude Include="fastdb\hashtab.h" />
+    <ClInclude Include="fastdb\iqsort.h" />
+    <ClInclude Include="fastdb\localcli.h" />
+    <ClInclude Include="fastdb\query.h" />
+    <ClInclude Include="fastdb\rectangle.h" />
+    <ClInclude Include="fastdb\reference.h" />
+    <ClInclude Include="fastdb\repsock.h" />
+    <ClInclude Include="fastdb\rtree.h" />
+    <ClInclude Include="fastdb\server.h" />
+    <ClInclude Include="fastdb\set.h" />
+    <ClInclude Include="fastdb\sockio.h" />
+    <ClInclude Include="fastdb\stdtp.h" />
+    <ClInclude Include="fastdb\subsql.h" />
+    <ClInclude Include="fastdb\symtab.h" />
+    <ClInclude Include="fastdb\sync.h" />
+    <ClInclude Include="fastdb\sync_unix.h" />
+    <ClInclude Include="fastdb\sync_w32.h" />
+    <ClInclude Include="fastdb\timeseries.h" />
+    <ClInclude Include="fastdb\ttree.h" />
+    <ClInclude Include="fastdb\unisock.h" />
+    <ClInclude Include="fastdb\w32sock.h" />
+    <ClInclude Include="fastdb\wince.h" />
+    <ClInclude Include="fastdb\wince_time.h" />
+    <ClInclude Include="fastdb\wwwapi.h" />
+    <ClInclude Include="include\cache_def.h" />
+    <ClInclude Include="include\common.h" />
+    <ClInclude Include="include\config.h" />
+    <ClInclude Include="include\constants.h" />
+    <ClInclude Include="include\fid.h" />
+    <ClInclude Include="include\IDBDefine.h" />
+    <ClInclude Include="include\idbutil.h" />
+    <ClInclude Include="include\idutil.h" />
+    <ClInclude Include="include\logger.h" />
+    <ClInclude Include="include\pinyin.h" />
+    <ClInclude Include="include\process_memory.h" />
+    <ClInclude Include="include\pugiconfig.hpp" />
+    <ClInclude Include="include\pugixml.hpp" />
+    <ClInclude Include="include\SimpleTimer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fastdb\compiler.d" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿  cache_attachguard.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  cache_center.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  cache_monitor.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\test\fastdbtest\fastdbtest\myfastdb\cache\cache_monitor.cpp(199): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+  account_cachecontroller.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  account_cache.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  cache_def.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  common.cpp
+  Unknown compiler version - please run the configure tests and report the results
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(662): warning C4018: “>”: 有符号/无符号不匹配
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(694): warning C4018: “<”: 有符号/无符号不匹配
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1011): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1011): warning C4244: “初始化”: 从“__int64”转换到“const long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1012): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1012): warning C4244: “初始化”: 从“__int64”转换到“const long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1013): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1013): warning C4244: “初始化”: 从“__int64”转换到“const long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1014): warning C4244: “初始化”: 从“__int64”转换到“long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1014): warning C4244: “初始化”: 从“__int64”转换到“const long”，可能丢失数据
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1024): warning C4477: “sprintf”: 格式字符串“%03d”需要类型“int”的参数，但可变参数 1 拥有了类型“time_t”
+  e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1024): note: 请考虑在格式字符串中使用“%lld”
+  e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1024): note: 请考虑在格式字符串中使用“%I64d”
+e:\test\fastdbtest\fastdbtest\myfastdb\include\common.cpp(1945): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  constants.cpp
+e:\test\fastdbtest\fastdbtest\myfastdb\include\constants.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Unknown compiler version - please run the configure tests and report the results
+  idbutil.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  idutil.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  main.cpp
+  Unknown compiler version - please run the configure tests and report the results
+  正在生成代码
+  4545 of 9677 functions (47.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    35 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  MyFastdb.vcxproj -> E:\test\FastdbTest\FastdbTest\Release\MyFastdb.exe

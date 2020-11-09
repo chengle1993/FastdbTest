@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQL>
+	<FetchAccountSQL>
+		SELECT DISTINCT
+		ia.id,
+		ia.company_id,
+		sc.name as company_name,
+		ia.account_code,
+		ia.username,
+		ia.password,
+		ia.display_name,
+		ia.mobile,
+		ia.telephone,
+		ia.email,
+		ia.rm,
+		ia.msn,
+		ia.qq,
+		ia.address,
+		ia.account_type,
+		ia.is_forbidden,
+		ia.create_time,
+		ia.modify_time,
+		ia.create_by,
+		ia.modify_by,
+		ia.status,
+		ia.dept,
+		ia.title,
+		ia.valid_time,
+		ia.info_status,
+		iarr.role_id
+		FROM idb_account ia
+		INNER JOIN sys_company sc
+		ON ia.company_id = sc.id AND sc.status = '1'
+		INNER JOIN idb_account_role_relation iarr
+		ON ia.id = iarr.account_id AND iarr.status = '1'
+		INNER JOIN idb_department d
+		ON d.id = iarr.department_id AND d.status = '1'
+		WHERE d.department_code = 'BOND' AND ia.status = '1'
+	</FetchAccountSQL>
+</SQL>

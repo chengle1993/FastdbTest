@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadConfigFile", "ReadConfi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MysqlConnection", "MysqlConnection\MysqlConnection.vcxproj", "{1C874149-3F75-4747-81F4-044A07CA1EBB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyFastdb", "MyFastdb\MyFastdb.vcxproj", "{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,14 @@ Global
 		{1C874149-3F75-4747-81F4-044A07CA1EBB}.Release|Win32.Build.0 = Release|Win32
 		{1C874149-3F75-4747-81F4-044A07CA1EBB}.Release|x64.ActiveCfg = Release|x64
 		{1C874149-3F75-4747-81F4-044A07CA1EBB}.Release|x64.Build.0 = Release|x64
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Debug|Win32.Build.0 = Debug|Win32
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Debug|x64.ActiveCfg = Debug|x64
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Debug|x64.Build.0 = Debug|x64
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Release|Win32.ActiveCfg = Release|Win32
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Release|Win32.Build.0 = Release|Win32
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Release|x64.ActiveCfg = Release|x64
+		{C0E5D8A3-2DD2-462D-9780-190C2510ECCB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
